@@ -43,7 +43,7 @@ footer {
   color: #cccccc;
 }
 
-/* Tipografía temática tipo editor de código */
+/* colores palabras */
 h1 {
   color: #dcdcaa;
 }
@@ -62,4 +62,11 @@ h2#portafolio {
 
 h2#contacto {
   color: #ce9178;
+}
+
+#habilidades .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
