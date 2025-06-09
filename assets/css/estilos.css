@@ -1,0 +1,65 @@
+body {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #569cd6;
+}
+
+a:hover {
+  color: #9cdcfe;
+}
+
+.navbar {
+  background-color: #252526;
+}
+
+.navbar-brand, .nav-link {
+  color: #d4d4d4 !important;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.project-card {
+  background-color: #2d2d2d;
+  border: 1px solid #3c3c3c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card h5 {
+  color: #c586c0;
+}
+
+footer {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+  color: #cccccc;
+}
+
+/* Tipografía temática tipo editor de código */
+h1 {
+  color: #dcdcaa;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+h2#habilidades {
+  color: #4ec9b0;
+}
+
+h2#portafolio {
+  color: #9cdcfe;
+}
+
+h2#contacto {
+  color: #ce9178;
+}
