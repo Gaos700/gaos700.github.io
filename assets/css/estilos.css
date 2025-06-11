@@ -23,6 +23,19 @@ a:hover {
 .section {
   padding: 60px 0;
 }
+.skill-card {
+  background-color: #2d2d2d;
+  border: 1px solid #3c3c3c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.skill-card:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
 
 .project-card {
   background-color: #2d2d2d;
@@ -30,10 +43,32 @@ a:hover {
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
+  height: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 .project-card h5 {
   color: #c586c0;
+}
+
+.project-card p {
+  flex-grow: 1; /* Para que el botón siempre quede alineado abajo */
 }
 
 footer {
