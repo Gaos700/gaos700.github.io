@@ -68,7 +68,7 @@ a:hover {
 }
 
 .project-card p {
-  flex-grow: 1; /* Para que el botón siempre quede alineado abajo */
+  flex-grow: 1; 
 }
 
 footer {
@@ -78,7 +78,7 @@ footer {
   color: #cccccc;
 }
 
-/* colores palabras */
+
 h1 {
   color: #dcdcaa;
 }
@@ -97,6 +97,26 @@ h2#portafolio {
 
 h2#contacto {
   color: #ce9178;
+}
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #d4d4d4;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color: #c586c0; 
+}
+
+.contact-info a {
+  color: #9cdcfe;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: #ffffff;
 }
 
 #habilidades .image-top {
