@@ -23,6 +23,12 @@ a:hover {
 .section {
   padding: 60px 0;
 }
+
+.inicio {
+  height: 450px;
+  align-content: center;
+}
+
 .skill-card {
   background-color: #2d2d2d;
   border: 1px solid #3c3c3c;
